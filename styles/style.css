@@ -386,3 +386,105 @@ body {
 }
 
 
+/* pricing */
+
+.pricing {
+    background: rgba(245, 245, 245, 1);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pricing__container {
+    width: 1170px;
+    text-align: center;
+}
+.pricing__title {
+    height: 150px;
+    line-height: 150px;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 150px;
+    text-transform: uppercase;
+    margin-top: 50px;
+
+}
+
+.pricing__line {
+    border: 0px solid rgba(236, 121, 121, 1);
+    background-color: rgba(236, 121, 121, 1);
+    height: 1px;
+    width: 170px;
+    margin: 0 auto 40px;
+}
+
+.pricing__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(134, 135, 139, 1);
+    margin-bottom: 79px;
+}
+
+.pricing__board {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    height: 530px;
+    align-items: flex-end;
+}
+
+.pricing__item {
+    width: 370px;
+    height: 510px;
+}
+
+.pricing__item:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(139, 139, 139);
+    margin-bottom: 20px;
+}
+
+.pricing__item-title {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    font-weight: 700;
+    height: 60px;
+    background: linear-gradient(0deg, #333333, #333333);
+    line-height: 60px;
+    border: 2px solid rgba(245, 245, 245, 1);
+}
+
+.pricing__item-price {
+    color: rgba(255, 255, 255, 1);
+    font-size: 36px;
+    font-weight: 700;
+    height: 100px;
+    background: linear-gradient(0deg, #333333, #333333);
+    line-height: 100px;
+    border: 2px solid rgba(245, 245, 245, 1);
+}
+
+.pricing__item-caption {
+    border: 2px solid rgba(245, 245, 245, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 50px;
+    color: rgba(255, 255, 255, 0.5);
+    height: 50px;
+    background: linear-gradient(0deg, #333333, #333333);
+}
+
+.pricing__item-text {
+    border: 2px solid rgba(245, 245, 245, 1);
+    text-transform: capitalize;
+    height: 50px;
+    background: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 50px;
+    color: rgba(134, 135, 139, 1);
+
+}
+
