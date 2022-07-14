@@ -70,8 +70,6 @@ body {
 .start__content-left {
     width: 680px;
 }
-.start__content-logo {
-}
 
 .start__content-logo-img {
     height: 55px;
@@ -108,10 +106,6 @@ body {
     font-size: 18px;
     margin-bottom: 185px;
     cursor: pointer;
-}
-
-.start__formbox {
-    
 }
 
 .start__form {
@@ -212,9 +206,6 @@ body {
     margin: auto 0;
 }
 
-.start__socialmedia-icon-box {
-
-}
 
 .start__socialmedia-icon {
     height: 100%;
@@ -295,10 +286,7 @@ body {
     border: 0;
     margin-bottom: 54px;
 }
-.tabs__right-column {
-}
-.tabs__tight-img {
-}
+
 
 /* awesome */
 
@@ -485,6 +473,5 @@ body {
     font-weight: 400;
     line-height: 50px;
     color: rgba(134, 135, 139, 1);
-
 }
 
