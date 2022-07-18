@@ -431,6 +431,7 @@ body {
     cursor: pointer;
     box-shadow: 0 0 10px rgb(139, 139, 139);
     margin-bottom: 20px;
+    transition: 0.5s;
 }
 
 .pricing__item-title {
