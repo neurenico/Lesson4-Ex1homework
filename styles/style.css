@@ -17,7 +17,7 @@ body {
 }
 
 .start__bgi {
-    background-image: url(/pictures/start.png);
+    background-image: url(../pictures/start.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
