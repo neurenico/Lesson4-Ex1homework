@@ -1,25 +1,19 @@
-* {
-    box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
-    margin: 0;
-}
-
-body {
-    overflow: scroll;
-    background-color: #fff;
-    text-align: center;
-}
-
 .download {
     background-image: url(../pictures/download.png);
     background-size: 100%;
     background-repeat: no-repeat;
+    text-align: center;
+}
+
+.download__blackout {
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .download__container {
     width: 1170px;
     margin: 0 auto;
     padding: 50px 0;
+    
 }
 
 .download__title {
