@@ -35,14 +35,15 @@
 
 .awesome__items {
     margin: 0 0 58px;
-    /* display: flex;
-    justify-content: space-between; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .awesome__items-item {
     text-align: center;
     width: 390px;
-    display: inline-block;
+    transition: .5s;
 }
 
 .awesome__items-img-container {
@@ -52,6 +53,11 @@
     border-radius: 100%;
     text-align: center;
     margin: 0 auto 39px;
+    transition: .5s;
+}
+
+.awesome__items-img {
+    transition: .5s;
 }
 
 .awesome__items-img-container_bulb {
@@ -60,6 +66,7 @@
 
 .awesome__items-img-container_keyboard {
     padding-top: 22px;
+    transition: .5s;
 }
 
 .awesome__items-img-container_thunder {
@@ -81,3 +88,106 @@
     font-size: 18px;
     padding: 0 15px;
 }
+
+@media screen and (max-width: 1230px) {
+
+    .awesome {
+        margin: 0 auto;
+        width: 969px;
+    }
+
+    .awesome__title {
+        height: 120px;
+        line-height: 120px;
+        margin: 0px 0px 32px;
+    }
+
+    .awesome__title-text {
+        font-size: 24px;
+    }
+
+    .awesome__title-line {
+        width: 142px;
+    }
+
+    .awesome__description {
+        font-size: 14px;
+        margin: 0 0 65.72px;
+    }
+
+    .awesome__items {
+        margin: 0 0 60px;
+    }
+
+    .awesome__items-item {
+        width: 323px;
+    }
+
+    .awesome__items-img-container {
+        height: 79.55px;
+        width: 79.55px;
+        transition: .5s;
+    }
+
+    .awesome__items-img-container_keyboard {
+        padding: 20px 4px 13px;
+        transition: .5s;
+    }
+
+    .awesome__items-img {
+        height: 80%;
+        transition: .5s;
+    }
+
+
+    .awesome__items-title {
+        margin: 0 0 17px;
+        font-size: 18px;
+        height: 82px;
+        line-height: 82px;
+    }
+    
+    .awesome__items-text {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 1033px) {
+    
+    .awesome {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .awesome__title {
+        height: 120px;
+        text-align: center;
+        line-height: 120px;
+        margin: 0px 0px 25px;
+    }
+    
+    .awesome__title-text {
+        font-size: 18px;
+    }
+    
+    .awesome__title-line {
+        width: 134px;
+    }
+    
+    .awesome__description {
+        margin: 0 0 83px;
+        font-size: 13px;
+    }
+    
+    .awesome__items {
+        margin: 0 0 17px;
+    }
+    
+    .awesome__items-item {
+        width: 288px;
+        margin-bottom: 43px;
+    }
+
+}
+

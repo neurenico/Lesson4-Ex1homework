@@ -22,6 +22,7 @@
 <body>
 
     <header class="start">
+        
         <div class="start__bgi">
             <div class="start__blackout">
                 <div class="start__menu">
@@ -35,29 +36,38 @@
                         <a href="" class="start__menu-item">Reviews</a>
                         <a href="" class="start__menu-item">Contact</a>
                     </div>
-                </div>
-                <div class="start__content">
-                    <div class="start__content-left">
-                        <div class="start__content-logo">
-                            <img src="./pictures/logo_big.png" alt="" class="start__content-logo-img">
-                        </div>
-                        <h1 class="start__content-title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
-                        <hr class="start__content-line">
-                        <p class="start__content-text">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit</p>
-                        <button class="start__content-btn">Download</button>   
+                    <div class="start__menu-btn">
+                        <input type="checkbox" id="menu__btn">
+                        <label class="start__menu-label" for="menu__btn"></label>
                     </div>
-                    <div class="start__formbox">
-                        <form action="" class="start__form">
-                            <h3 class="start__form-title">Try Your <span>FREE</span> Trial Today</h3>
-                            <input type="text" value="Name" class="start__form-input">
-                            <input type="text" value="Email" class="start__form-input">
-                            <input type="text" value="Password" class="start__form-input">
-                            <button class="start__form-btn">Get Started</button>
-                        </form>
+                </div>
+                <div class="start__border">
+                    <div class="start__content">
+                        <div class="start__content-left">
+                            <div class="start__content-logo">
+                                <img src="./pictures/logo_big.png" alt="" class="start__content-logo-img">
+                            </div>
+                            <h1 class="start__content-title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+                            <hr class="start__content-line">
+                            <p class="start__content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            <button class="start__content-btn">Download</button>   
+                        </div>
+                        <div class="start__formbox">
+                            <form action="" class="start__form">
+                                <h3 class="start__form-title">Try Your <span>FREE</span> Trial Today</h3>
+                                <div class="start__input-container">
+                                    <input type="text" value="Name" class="start__form-input">
+                                    <input type="text" value="Email" class="start__form-input">
+                                    <input type="text" value="Password" class="start__form-input">
+                                </div>
+                                <button class="start__form-btn">Get Started</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
         <div class="start__socialmedia-container">
             <div class="start__socialmedia">
                 <div class="start__socialmedia-left">
@@ -81,25 +91,25 @@
     <main class="main">
 
         <div class="tabs">
-            <header class="tabs__head">
-                <div class="tabs__head-item">Tab 1</div>
-                <div class="tabs__head-item hide-border-bottom">Tab 2</div>
-                <div class="tabs__head-item hide-border-bottom">Tab 3</div>
-            </header>
-            <main class="tabs__content">
-                <div class="tabs__left-column">
-                    <h3 class="tabs__left-column-title">Tabs with soft transitioning effect.</h3>
-                    <p class="tabs__left-column-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br>bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra <br>
-                    justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-                    penatibus et magnis dis parturient montes.<br><br>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br>
-                    bibendum laoreet.</p>
-                    <button class="tabs__left-column-btn">Download</button>
-                </div>
-                <div class="tabs__right-column">
-                    <img src="./pictures/Rectangle 111.png" alt="" class="tabs__tight-img">
-                </div>
-            </main>
+            <div class="tabs__container">
+                <header class="tabs__head">
+                    <div class="tabs__head-item">Tab 1</div>
+                    <div class="tabs__head-item hide-border-bottom">Tab 2</div>
+                    <div class="tabs__head-item hide-border-bottom">Tab 3</div>
+                </header>
+                <main class="tabs__content">
+                    <div class="tabs__left-column">
+                        <h3 class="tabs__left-column-title">Tabs with soft transitioning effect.</h3>
+                        <p class="tabs__left-column-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                        penatibus et magnis dis parturient montes.<br><br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+                        <button class="tabs__left-column-btn">Download</button>
+                    </div>
+                    <div class="tabs__right-column">
+                        <img src="./pictures/Rectangle 111.png" alt="" class="tabs__right-img">
+                    </div>
+                </main>
+            </div>
         </div>
     
         <div class="awesome">
@@ -139,38 +149,44 @@
                 <hr class="pricing__line">
                 <p class="pricing__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <div class="pricing__board">
-                    <div class="pricing__item">
-                        <h4 class="pricing__item-title">Basic</h4>
-                        <h3 class="pricing__item-price">$10</h3>
-                        <p class="pricing__item-caption">Free for life</p>
-                        <p class="pricing__item-text">1 gb of space</p>
-                        <p class="pricing__item-text">1 gb of space</p>
-                        <p class="pricing__item-text">1 gb of space</p>
-                        <p class="pricing__item-text">1 gb of space</p>
-                        <p class="pricing__item-text">1 gb of space</p>
-                        <p class="pricing__item-text">1 gb of space</p>
+                    <div class="pricing__item-container">
+                        <div class="pricing__item">
+                            <h4 class="pricing__item-title">Basic</h4>
+                            <h3 class="pricing__item-price">$10</h3>
+                            <p class="pricing__item-caption">Free for life</p>
+                            <p class="pricing__item-text">1 gb of space</p>
+                            <p class="pricing__item-text">1 gb of space</p>
+                            <p class="pricing__item-text">1 gb of space</p>
+                            <p class="pricing__item-text">1 gb of space</p>
+                            <p class="pricing__item-text">1 gb of space</p>
+                            <p class="pricing__item-text">1 gb of space</p>
+                        </div>
                     </div>
-                    <div class="pricing__item">
-                        <h4 class="pricing__item-title">Optima</h4>
-                        <h3 class="pricing__item-price">$20</h3>
-                        <p class="pricing__item-caption">Free for life</p>
-                        <p class="pricing__item-text">1 gb of space</p>
-                        <p class="pricing__item-text">1 gb of space</p>
-                        <p class="pricing__item-text">1 gb of space</p>
-                        <p class="pricing__item-text">1 gb of space</p>
-                        <p class="pricing__item-text">1 gb of space</p>
-                        <p class="pricing__item-text">1 gb of space</p>
+                    <div class="pricing__item-container">
+                        <div class="pricing__item">
+                            <h4 class="pricing__item-title">Optima</h4>
+                            <h3 class="pricing__item-price">$20</h3>
+                            <p class="pricing__item-caption">Free for life</p>
+                            <p class="pricing__item-text">1 gb of space</p>
+                            <p class="pricing__item-text">1 gb of space</p>
+                            <p class="pricing__item-text">1 gb of space</p>
+                            <p class="pricing__item-text">1 gb of space</p>
+                            <p class="pricing__item-text">1 gb of space</p>
+                            <p class="pricing__item-text">1 gb of space</p>
+                        </div>
                     </div>
-                    <div class="pricing__item">
-                        <h4 class="pricing__item-title">Pro</h4>
-                        <h3 class="pricing__item-price">$30</h3>
-                        <p class="pricing__item-caption">Free for life</p>
-                        <p class="pricing__item-text">1 gb of space</p>
-                        <p class="pricing__item-text">1 gb of space</p>
-                        <p class="pricing__item-text">1 gb of space</p>
-                        <p class="pricing__item-text">1 gb of space</p>
-                        <p class="pricing__item-text">1 gb of space</p>
-                        <p class="pricing__item-text">1 gb of space</p>
+                    <div class="pricing__item-container">
+                        <div class="pricing__item">
+                            <h4 class="pricing__item-title">Pro</h4>
+                            <h3 class="pricing__item-price">$30</h3>
+                            <p class="pricing__item-caption">Free for life</p>
+                            <p class="pricing__item-text">1 gb of space</p>
+                            <p class="pricing__item-text">1 gb of space</p>
+                            <p class="pricing__item-text">1 gb of space</p>
+                            <p class="pricing__item-text">1 gb of space</p>
+                            <p class="pricing__item-text">1 gb of space</p>
+                            <p class="pricing__item-text">1 gb of space</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -181,7 +197,7 @@
             <hr class="staff__line">
             <p class="staff__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <div class="staff__board">
-                <div class="staff__item">
+                <div class="staff__item staff-hidden">
                     <p class="staff__item-text">Lorem ipsum dolor sit amet, 
                     consectetur adipisicing elit. Doloribus 
                     accusamus expedita repellat similique 
@@ -211,7 +227,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="staff__item">
+                <div class="staff__item staff-hidden">
                     <p class="staff__item-text">Lorem ipsum dolor sit amet, 
                     consectetur adipisicing elit. Doloribus 
                     accusamus expedita repellat similique 
@@ -226,6 +242,11 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="staff__choise choise-btn-hidden">
+                <button class="staff__choise-btn"></button>
+                <button class="staff__choise-btn staff__choise-btn-not-hidden"></button>
+                <button class="staff__choise-btn"></button>
             </div>
         </div>
         
@@ -242,46 +263,55 @@
         
     </main>
 
-    <footer class="contact">
-        <h1 class="contact__title">contact us</h1>
-        <hr class="contact__line">
-        <p class="contact__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <form action="" class="contact__form">
-            <div class="contact__form-left">
-                <input type="text" class="contact__form-item" value="Name">
-                <input type="text" class="contact__form-item" value="Email">
-                <input type="text" class="contact__form-item" value="Password">
+    <div class="contact__container">
+
+        <footer class="contact">
+
+            <div class="contact__above">
+                <h1 class="contact__title">contact us</h1>
+                <hr class="contact__line">
+                <p class="contact__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <form action="" class="contact__form">
+                    <div class="contact__form-left">
+                        <input type="text" class="contact__form-item" value="Name">
+                        <input type="text" class="contact__form-item" value="Email">
+                        <input type="text" class="contact__form-item" value="Password">
+                    </div>
+                    <div class="contact__form-right">
+                        <textarea name="" id="" cols="30" rows="10" class="contact__form-item">Message</textarea>
+                    </div>
+                    <button class="contact__form-button">Send Message</button>
+                </form>
             </div>
-            <textarea name="" id="" cols="30" rows="10" class="contact__form-item">Message</textarea>
-            <button class="contact__form-button">Send Message</button>
-        </form>
-        <div class="contact__social">
-            <div class="contact__social-box">
-                <a href="" class="contact__social-link-icon">
-                    <img src="./pictures/fb-end.png" alt="" class="contact__social-img">
-                </a>
-                <a href="" class="contact__social-link-icon">
-                    <img src="./pictures/twitter-end.png" alt="" class="contact__social-img">
-                </a>
-                <a href="" class="contact__social-link-icon">
-                    <img src="./pictures/linkedin-end.png" alt="" class="contact__social-img">
-                </a>
-                <a href="" class="contact__social-link-icon">
-                    <img src="./pictures/pinterest-end.png" alt="" class="contact__social-img">
-                </a>
-                <a href="" class="contact__social-link-icon">
-                    <img src="./pictures/instagramm-end.png" alt="" class="contact__social-img">
-                </a>
-                <a href="" class="contact__social-link-icon">
-                    <img src="./pictures/github-end.png" alt="" class="contact__social-img">
-                </a>
-                <a href="" class="contact__social-link-icon">
-                    <img src="./pictures/wave-end.png" alt="" class="contact__social-img">
-                </a>
+
+            <div class="contact__social">
+                <div class="contact__social-box">
+                    <a href="" class="contact__social-link-icon">
+                        <img src="./pictures/fb-end.png" alt="" class="contact__social-img">
+                    </a>
+                    <a href="" class="contact__social-link-icon">
+                        <img src="./pictures/twitter-end.png" alt="" class="contact__social-img">
+                    </a>
+                    <a href="" class="contact__social-link-icon">
+                        <img src="./pictures/linkedin-end.png" alt="" class="contact__social-img">
+                    </a>
+                    <a href="" class="contact__social-link-icon">
+                        <img src="./pictures/pinterest-end.png" alt="" class="contact__social-img">
+                    </a>
+                    <a href="" class="contact__social-link-icon">
+                        <img src="./pictures/instagramm-end.png" alt="" class="contact__social-img">
+                    </a>
+                    <a href="" class="contact__social-link-icon">
+                        <img src="./pictures/github-end.png" alt="" class="contact__social-img">
+                    </a>
+                    <a href="" class="contact__social-link-icon">
+                        <img src="./pictures/wave-end.png" alt="" class="contact__social-img">
+                    </a>
+                </div>
+                <p class="contact__social-text">© 2015 Axure Themes</p>
             </div>
-            <p class="contact__social-text">© 2015 Axure Themes</p>
-        </div>
-    </footer>
+        </footer>
+    </div>
 
 </body>
 </html>

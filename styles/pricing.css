@@ -1,13 +1,14 @@
 .pricing {
     background: rgba(245, 245, 245, 1);
     width: 100%;
-    display: flex;
-    justify-content: center;
+    padding: 50px 0 1px;
 }
 
 .pricing__container {
     width: 1170px;
+    margin: 0 auto;
     text-align: center;
+    transition: 0.5s;
 }
 
 .pricing__title {
@@ -15,9 +16,7 @@
     line-height: 150px;
     font-size: 36px;
     font-weight: 400;
-    line-height: 150px;
     text-transform: uppercase;
-    margin-top: 50px;
 }
 
 .pricing__line {
@@ -47,6 +46,7 @@
 .pricing__item {
     width: 370px;
     height: 510px;
+    transition: 0.5s;
 }
 
 .pricing__item:hover {
@@ -96,5 +96,127 @@
     font-weight: 400;
     line-height: 50px;
     color: rgba(134, 135, 139, 1);
+}
+
+@media screen and (max-width: 1230px) {
+    
+    .pricing__container {
+        width: 968px;
+        transition: 0.5s;
+    }
+    
+    .pricing__title {
+        height: 120px;
+        line-height: 120px;
+        font-size: 24px;
+    }
+    
+    .pricing__line {
+        width: 143px;
+        margin: 0 auto 32px;
+    }
+    
+    .pricing__text {
+        font-size: 14px;
+        line-height: 16.44px;
+        margin-bottom: 50px;
+    }
+    
+    .pricing__board {
+        margin-bottom: 50px;
+        height: 450px;
+    }
+    
+    .pricing__item {
+        width: 318px;
+        height: 450px;
+        transition: 0.5s;
+    }
+    
+    .pricing__item-title {
+        height: 53.21px;
+        line-height: 53.21px;
+    }
+    
+    .pricing__item-price {
+        height: 88.68px;
+        line-height: 88.68px;
+    }
+    
+    .pricing__item-caption {
+        line-height: 44.34px;
+        height: 44.34px;
+    }
+    
+    .pricing__item-text {
+        line-height: 44.34px;
+        height: 44.34px;
+    }
+
+}
+
+@media screen and (max-width: 1033px) {
+    
+    .pricing {
+        padding: 0 0 1px;
+    }
+    
+    .pricing__container {
+        width: 100%;
+    }
+    
+    .pricing__line {
+        width: 134px;
+        margin: 0 auto 24px;
+    }
+    
+    .pricing__text {
+        margin-bottom: 0;
+    }
+    
+    .pricing__board {
+        justify-content: center;
+        flex-wrap: wrap;
+        height: auto;
+        margin-bottom: 26px;
+    }
+
+    .pricing__item-container {
+        height: 425px;
+        display: flex;
+        align-items: flex-end;
+        margin: 0 5px;
+    }
+    
+    .pricing__item {
+        width: 288px;
+        height: auto;
+        transition: 0.5s;
+    }
+    
+    .pricing__item-title {
+        font-size: 18px;
+        height: 47px;
+        line-height: 47px;
+    }
+    
+    .pricing__item-price {
+        font-size: 24px;
+        height: 78px;
+        line-height: 78px;
+    }
+    
+    .pricing__item-caption {
+        font-size: 14px;
+        line-height: 39px;
+        height: 39px;
+    }
+    
+    .pricing__item-text {
+        height: 39px;
+        font-size: 14px;
+        line-height: 39px;
+    }    
+
 }
 

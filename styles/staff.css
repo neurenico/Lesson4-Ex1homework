@@ -2,6 +2,7 @@
     width: 1170px;
     margin: 50px auto 64px;
     text-align: center;
+    transition: .5s;
 }
 
 .staff__title {
@@ -25,6 +26,7 @@
 .staff__text {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
+    line-height: 21.13px;
     font-weight: 400;
     color: rgba(134, 135, 139, 1);
     margin-bottom: 83px;
@@ -37,6 +39,7 @@
 
 .staff__item {
     position: relative;
+    width: 370px;
 }
 
 .staff__item-text {
@@ -95,4 +98,161 @@
     font-weight: 400;
     line-height: 21px;
 }
+
+.choise-btn-hidden {
+    display: none;
+}
+
+@media screen and (max-width: 1230px) {
+    
+    .choise-btn-hidden {
+        display: none;
+    }
+
+    .staff {
+        width: 968px;
+        margin: 50px auto 59px;
+        transition: .5s;
+    }
+    
+    .staff__title {
+        height: 120px;
+        font-size: 24px;
+        line-height: 120px;
+    }
+    
+    .staff__line {
+        width: 142px;
+        margin-bottom: 32px;
+    }
+    
+    .staff__text {
+        font-size: 14px;
+        line-height: 16.44px;
+        margin-bottom: 32px;
+    }
+    
+    .staff__board {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .staff__item {
+        position: relative;
+        width: 317px;
+    }
+    
+    .staff__item-text {
+        width: 317px;
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+    
+    .staff__item-square {
+        width: 22px;
+        height: 22px;
+    }
+    
+    .staff__item-person-img {
+        height: 63px;
+        margin-right: 22.54px;
+    }
+    
+    .staff__item-person-name {
+        font-size: 18px;
+        line-height: 24.51px;
+        margin-bottom: 9px;
+        height: 36px;
+    }
+    
+    .staff__item-person-job {
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+
+}
+
+@media screen and (max-width: 1033px) {
+    
+    .staff {
+        width: 100%;
+        margin: 0 auto 31.51px;
+    }
+    
+    .staff__title {
+        height: 120px;
+        font-size: 24px;
+        line-height: 28.18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .staff__line {
+        width: 134px;
+        margin-bottom: 24px;
+    }
+    
+    .staff__text {
+        font-size: 14px;
+        line-height: 16.44px;
+        margin-bottom: 24px;
+    }
+
+    .staff__board {
+        padding: 0 12px;
+    }
+    
+    .staff__item {
+        width: 288px;
+        margin: 0 auto;
+    }
+
+    .staff__item-text {
+        width: auto;
+    }
+    
+    .staff__item-person-img {
+        height: 57px;
+    }
+    
+    .staff__item-person-name {
+        font-size: 14px;
+        line-height: 36px;
+        margin-bottom: 10px;
+        height: 36px;
+    }
+    
+    .staff__item-person-job {
+        font-size: 13px;
+        line-height: 15.26px;
+        margin-bottom: 32px;
+    }
+
+    .staff-hidden {
+        display: none;
+    }
+
+    .staff__choise {
+        margin-bottom: 31.51px;
+        display: flex;
+        justify-content: space-between;
+        width: 130px;
+        margin: 0 auto;
+    }
+
+    .staff__choise-btn {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        border: 1px solid rgba(134, 135, 139, 1);
+        padding: 0;
+    }
+
+    .staff__choise-btn-not-hidden {
+        background-color: rgba(134, 135, 139, 1);
+    }
+
+}
+
 
