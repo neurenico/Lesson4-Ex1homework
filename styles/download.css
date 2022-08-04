@@ -52,6 +52,20 @@
     background-color: rgba(255, 255, 255, 0);
     color:rgba(255, 255, 255, 1);
     cursor: pointer;
+    transition: .2s;
+}
+
+.download__button:hover {
+    border: 2px solid rgba(236, 121, 121, 1);
+    color: rgba(236, 121, 121, 1);
+    transition: .2s;
+}
+
+.download__button:active {
+    border: 2px solid rgba(171, 73, 73, 1);
+    background: rgba(171, 73, 73, 1);
+    color: #fff;
+    transition: .2s;
 }
 
 @media screen and (max-width: 1230px) {
